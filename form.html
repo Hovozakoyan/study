@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ֆորմաներ</title>
+    </head>
+    <body>
+        <form action="data.php" method="get">
+        <fieldset>
+        <legend>Անձնական տվյալներ</legend>
+    <p><input type="text" placeholder="Անուն" name="name"></p>
+    <p><input type="password" placeholder="Գաղտնաբառ" name="pass"></p>
+        </fieldset>
+        <fieldset>
+        <legend>Հարցեր</legend>
+    <p>Արդյոք թնկ է ժամանակը ձեզ համար՞</p>
+    <p>
+        <p><label><input type="radio"  name="time" value="yes">Այո,</label>
+       <label><input type="radio"  name="time" value="no">Ոչ</label></p>
+    </p>
+    <p> ինչ գործիք եք օգտագործում ժամանակը խնայելու համար</p>
+    <p><label><input type="checkbox" name="alarm"> Զարթուցիչ </label></p>
+    <p><label><input type="checkbox" name="timer"> Ժամանակաչափ </label></p>
+    <p><label><input type="checkbox" name="main"> իմ մեթոդը </label></p>
+    <p>Քանի ժամեք աշխատում օրվա մեջ՞</p>
+     <p>
+        <select name="worktime">
+          <option> 4</option>
+          <option>8</option>
+          <option>5</option>
+          <option>3</option>
+            <option>1</option>
+         </select>
+    </p>    
+       </fieldset>
+    <p><label for="text">ձեր կարծիքը</label></p>
+<p><textarea name="message" cols="50" rows="10" id="text" placeholder="grii de zzvcreles"></textarea></p>
+     <p>    
+    <input type="reset" value="մաքրել">
+    <input type="submit" value="ուղարկել">
+     </p>   
+<p><input type="image" src="images/button.png" name="imgbutton"></p>
+<p><input type="button" value="կոճակ"></p> 
+<p><button type="submit">կոճակ</button></p>
+       </form>
+    </body>
+</html>
